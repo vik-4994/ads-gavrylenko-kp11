@@ -1,0 +1,13 @@
+/Users/admin/Projects/ASD_02/ASD_02/bin/Debug/netcoreapp3.1/ASD_02.deps.json
+/Users/admin/Projects/ASD_02/ASD_02/bin/Debug/netcoreapp3.1/ASD_02.runtimeconfig.json
+/Users/admin/Projects/ASD_02/ASD_02/bin/Debug/netcoreapp3.1/ASD_02.runtimeconfig.dev.json
+/Users/admin/Projects/ASD_02/ASD_02/bin/Debug/netcoreapp3.1/ASD_02.dll
+/Users/admin/Projects/ASD_02/ASD_02/bin/Debug/netcoreapp3.1/ASD_02.pdb
+/Users/admin/Projects/ASD_02/ASD_02/obj/Debug/netcoreapp3.1/ASD_02.csproj.AssemblyReference.cache
+/Users/admin/Projects/ASD_02/ASD_02/obj/Debug/netcoreapp3.1/ASD_02.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Projects/ASD_02/ASD_02/obj/Debug/netcoreapp3.1/ASD_02.AssemblyInfoInputs.cache
+/Users/admin/Projects/ASD_02/ASD_02/obj/Debug/netcoreapp3.1/ASD_02.AssemblyInfo.cs
+/Users/admin/Projects/ASD_02/ASD_02/obj/Debug/netcoreapp3.1/ASD_02.csproj.CoreCompileInputs.cache
+/Users/admin/Projects/ASD_02/ASD_02/obj/Debug/netcoreapp3.1/ASD_02.dll
+/Users/admin/Projects/ASD_02/ASD_02/obj/Debug/netcoreapp3.1/ASD_02.pdb
+/Users/admin/Projects/ASD_02/ASD_02/obj/Debug/netcoreapp3.1/ASD_02.genruntimeconfig.cache
