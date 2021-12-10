@@ -6,9 +6,11 @@ namespace ASD_03
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введіть N");
+            int n = Convert.ToInt32(Console.ReadLine());
             Random rnd = new Random();
-            int[] array = new int[10];
-            int[]firstArray = new int[10];
+            int[] array = new int[n];
+            int[]firstArray = new int[n];
             Console.WriteLine("Початок");
             for(int i = 0; i < array.Length; i++)
             {

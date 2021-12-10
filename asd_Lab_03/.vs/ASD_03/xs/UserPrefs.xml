@@ -1,7 +1,7 @@
-﻿<Properties StartupConfiguration="{F8566F32-576A-416B-8AE4-300990D6CC8A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ASD_03/Program.cs">
+﻿<Properties StartupConfiguration="{74572780-D832-46B9-BE6F-A60C59CC9F2D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="ASD_03/Program.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="12" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
