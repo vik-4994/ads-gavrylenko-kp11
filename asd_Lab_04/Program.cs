@@ -7,8 +7,56 @@ namespace ASD_04
         static void Main(string[] args)
         {
             SLNode n = new SLNode(1,2,5);
-            n.DeleteAtPosition(2);
-            n.Print();
+            bool bol = true;
+            while (bol)
+            {
+                Console.WriteLine("Введіть цифру - (1) AddFirst; (2) AddLast; (3) AddAtPosition; (4) DeleteFirst; (5) DeleteLast; (6) DeleteAtPosition; (7) Print; (8) FindMaxAndAdd; (9) закінчити виконання програми");
+                int num = Convert.ToInt32(Console.ReadLine());
+                int dat;
+                int pos;
+                switch (num)
+                {
+                    case 1:
+                        Console.WriteLine("Введіть данні");
+                        dat = Convert.ToInt32(Console.ReadLine());
+                        n.AddFirst(dat);
+                        break;
+                    case 2:
+                        Console.WriteLine("Введіть данні");
+                        dat = Convert.ToInt32(Console.ReadLine());
+                        n.AddLast(dat);
+                        break;
+                    case 3:
+                        Console.WriteLine("Введіть позицію");
+                        pos = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Введіть данні");
+                        dat = Convert.ToInt32(Console.ReadLine());
+                        n.AddAtPosition(dat, pos);
+                        break;
+                    case 4:
+                        n.DeleteFirst();
+                        break;
+                    case 5:
+                        n.DeleteLast();
+                        break;
+                    case 6:
+                        Console.WriteLine("Введіть позицію");
+                        pos = Convert.ToInt32(Console.ReadLine());
+                        n.DeleteAtPosition(pos);
+                        break;
+                    case 7:
+                        n.Print();
+                        break;
+                    case 8:
+                        Console.WriteLine("Введіть данні");
+                        dat = Convert.ToInt32(Console.ReadLine());
+                        n.FindMaxElemAndAdd(dat);
+                        break;
+                    case 9:
+                        bol = false;
+                        break;
+                }
+            }
         }
 
         class SLNode
@@ -143,11 +191,11 @@ namespace ASD_04
                     Node m = tail.next;
                     do
                     {
-                        Console.Write(m.data);
+                        Console.Write($"{m.data} ");
                         m = m.next;
                     }
                     while (m != tail.next);
-
+                    Console.WriteLine();
                 }
             }
 
