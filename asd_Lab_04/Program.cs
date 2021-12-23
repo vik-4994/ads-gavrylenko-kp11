@@ -112,7 +112,7 @@ namespace ASD_04
                 } else
                 {
                     Node m = tail;
-                    for (int i = 0; i < position; i++)
+                    for (int i = 1; i < position; i++)
                     {
                         m = m.next;
                     
@@ -146,7 +146,7 @@ namespace ASD_04
                     }
                     else 
                     {
-                        Node m = tail;
+                        Node m = tail.next;
                         while(m.next != tail) 
                         {
                             m = m.next; 
@@ -168,7 +168,7 @@ namespace ASD_04
                     else
                     {
                         Node m = tail;
-                        for (int i = 0; i < position; i++)
+                        for (int i = 1; i < position; i++)
                         {
                             m = m.next;
                         }
